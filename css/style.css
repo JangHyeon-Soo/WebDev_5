@@ -44,3 +44,7 @@ form > input
     width: 250px;
     margin: 5px;
 }
+
+div#login-form{
+    text-align: center;
+}
