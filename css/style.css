@@ -45,6 +45,11 @@ form > input
     margin: 5px;
 }
 
-div#login-form{
+div#login-form
+{
     text-align: center;
+    margin: 50px;
+    width: 500px;
+    height: auto;
 }
+
