@@ -80,17 +80,6 @@
             </dl>
         </div>
     </a>
-    <div>
-        <form action="#" method="get">
-            <label for="idBox">아이디</label><br>
-            <input type="text" name="" id="idBox"><br>
-            <br>
-            <label for="passwordBox">비밀번호</label><br>
-            <input type="password">
-
-            <input type="button" value="로그인">
-        </form>
-    </div>
     <div id="login-form">
         <form action="">
             <!-- <label for="loginID">아이디 입력</label> -->
@@ -106,7 +95,8 @@
             체크박스 : <input type="checkbox"><br>
             라디오 버튼 : <input type="radio"><br>
             파일 첨부 : <input type="file"><br>
-            <input type="button" value="버튼" onclick="alert('나감')" onmouseout="alert('나감')"><br>
+            <!-- onclick="alert('나감')" onmouseout="alert('나감')"-->
+            <input type="button" value="버튼" ><br>
             <input type="image" id="facebookImg" src="https://i.namu.wiki/i/YvA6ySb4DvwGQi82OFE0zkEo3npHoL3Apctx3SXmnTjakG_T7v4_yWY0eap1XnbYlraXxq8LCSWOHXzHyIhH0A.svg"><br>
             보이지 않는 히든 : <input type="hidden"><br>
             날짜 : <input type="date" ><br>    
@@ -147,39 +137,38 @@
             
         </form>
     </div>
-
-    <table  border="1" style="text-align: center;" cellspacing="0" >
-        <tr>
-            <th>번호</th>
-            <th>상품명</th>
-            <th>수량</th>
-            <th>가격</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>콜라</td>
-            <td>2개</td>
-            <td rowspan="3">1,000원</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>사이다</td>
-            <td>2개</td>
-            
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>탄산수</td>
-            <td>3개</td>
-            
-        </tr>
-        <tr>
-            <td>합계</td>
-            <td colspan="3">6,500원</td>
-           
-        </tr>
-    </table>
     <div style="width: 600px; text-align: center;">
+        <table  border="1" style="text-align: center;" cellspacing="0" >
+            <tr>
+                <th>번호</th>
+                <th>상품명</th>
+                <th>수량</th>
+                <th>가격</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>콜라</td>
+                <td>2개</td>
+                <td rowspan="3">1,000원</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>사이다</td>
+                <td>2개</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>탄산수</td>
+                <td>3개</td>
+                
+            </tr>
+            <tr>
+                <td>합계</td>
+                <td colspan="3">6,500원</td>
+               
+            </tr>
+        </table>
         
         <table width="500px" border="2" cellspacing="3">
             <caption style="color: red;">제품 주문표</caption>
